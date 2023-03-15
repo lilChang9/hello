@@ -11,6 +11,7 @@ public class lc257 {
         TreeNode node3 = new TreeNode(5);
         System.out.println("hot-fix first changed");
         System.out.println("master first changed");
+        System.out.println("hot-fix second changed");
         root.left = node1;
         root.right = node2;
         node1.right = node3;
