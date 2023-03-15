@@ -9,6 +9,7 @@ public class lc257 {
         TreeNode node1 = new TreeNode(2);
         TreeNode node2 = new TreeNode(3);
         TreeNode node3 = new TreeNode(5);
+        System.out.println("hot-fix first changed");
         root.left = node1;
         root.right = node2;
         node1.right = node3;
