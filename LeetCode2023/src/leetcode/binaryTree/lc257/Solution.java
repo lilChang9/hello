@@ -15,6 +15,7 @@ class Solution {
     }
 
     public void getPath(TreeNode node,String path){
+
         if(node == null){
             return;
         }
